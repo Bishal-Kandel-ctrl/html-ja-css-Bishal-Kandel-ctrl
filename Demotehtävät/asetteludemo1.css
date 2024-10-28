@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    display: flex;
+}
+
+main{
+    /* display: flex; */
+
+}
+
+h2{
+    text-align: center;
+    border: 1px solid;
+
+
+}
+
+
+nav{
+    width: 200px;
+}
+
+
+li{
+    list-style-type: none;
+    background-color: rgb(0, 187, 255);
+    color: black;
+    border: 1px solid;
+    border-color: gray;
+    display: flex;
+}
+
+.tuotteet{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid;
+    /* flex-wrap: wrap; */
+
+}
+
+
+.subdiv{
+    border: 1px solid;
+    margin: 50px;
+    border-radius: 20px;
+    width: 200px;
+    background-color: aqua;
+    text-align: center;
+
+    
+
+
+}
+
