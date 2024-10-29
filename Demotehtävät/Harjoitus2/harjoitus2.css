@@ -1,0 +1,51 @@
+
+
+.logo{
+    display:grid;
+}
+.slogan{
+    display: grid;
+   
+}
+nav {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+nav > ul {
+    list-style: none;
+    grid-area: nav;
+    display: flex; 
+    justify-content: center; 
+    height: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    display:grid;
+    grid-template-columns: 200px 1fr 50px 150px;
+    grid-template-areas: 
+    ". nav shoppingcart signup-link";
+    background-color: gray;
+    width: 100%;
+
+}
+
+nav li {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+nav > li:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.langChange{
+    grid-;
+}

@@ -1,0 +1,30 @@
+.sign-up{
+
+}
+.sign-up:hover {
+    color: red;
+}
+
+.sign-up:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign-up:active {
+    color: pink;
+    border: solid 1px pink;
+    cursor: pointer;
+}
+
+.a-link:link {
+    color: red;
+}
+
+.a-link:visited {
+    color: rgb(46, 8, 198);
+}
+
+.a-link:focus {
+    background-color: lightblue;
+}

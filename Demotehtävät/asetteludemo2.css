@@ -1,30 +1,71 @@
 body{
-    margin: 0;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 200px 100px 500px;
-    grid-area: "header header header header header";
+    margin: auto;
+   max-width: 800px;
 
 }
+header{
+    grid-area: header;
+    text-align: center;
+}
+nav{
+    margin: auto;
+}
 
-main{
-    /* display: grid; */
+nav > ul {
     display: flex;
-    flex-wrap: wrap;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
+    justify-content: center;
+
 }
 
-nav ul li{
+nav > ul > li{
     list-style-type: none;
+    margin-right: 10px;
+    margin-left: 10px;
+
 
 }
 
-nav ul{
-    display: flex;
+.main{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+     "introduction ."
+     "products ad";
 }
+
+.introduction{
+    grid-area: introduction;
+    text-align: center;
+
+}
+
+
+/* nav > ul{
+    display: grid;
+} */
 
 .products{
+    display: flex;
+    grid-area: products;
+    flex-wrap: wrap;
+  
 
 }
+
+.subdiv{
+    border: 1px gold solid;
+    margin: 30px;
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    background-color: gray;
+
+
+
+}
+
+.ad{
+    grid-area: ad;
+}
+
