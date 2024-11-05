@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Lomakkeet.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Registration for the Accomodation</h1>
+    </header>
+    <form>
+    <label for="username"> Username: </label>
+    <input type="text" name="username" id="username" required placeholder="Username" autofocus><br>
+    <label for="Phonenumber"> Phone number: </label> 
+    <input type="number" name="Phonenumber" for="Phonenumber" id="Phonenumber" placeholder="0407364628" required> <br>
+    <label for="email"> Email address:</label> 
+    <input type="email" name="email" id="email" placeholder="hdy@gmail.com"> <br>
+    <label for="date"> Date: </label>
+    <input type="date" name="date" id="date">
+    <input type="checkbox" id="accomodation1" name="accomodation1" value="Staying overnight">
+    <label for="accomodation1"> Staying overnight at the venue :</label>
+    <input type="checkbox" id="accomodation2" name="accomodation2" value="Staying somewhere else">
+    <label for="accomodation2"> Staying somewhere else :</label>
+    <input type="checkbox" id="accomodation3" name="accomodation3" value="for the day">
+    <label for="accomodation3"> Just visiting for the day :</label>
+    <label for="allergia">Allergia</label>
+    <p>Please write here the food you don't like:</p>
+    <textarea name="allergia" id="allergia" cols="15" rows="8"></textarea>
+    <p>Choose your favorite of the four food portions:</p>
+    <select name="foods" id="foods">
+        <option value="eggs">Eggs</option>
+        <option value="bread">Bread</option>
+        <option value="milk">Milk</option>
+        <option value="butter">Butter</option>
+    </select><br>
+    <label for="breakfast">Breakfast</label>
+    <input type="radio" name="breakfast" id="breakfast">
+
+
+    <input type="submit" name="submit" value="Send the form">
+  
+
+
+</form>
+</body>
+</html>

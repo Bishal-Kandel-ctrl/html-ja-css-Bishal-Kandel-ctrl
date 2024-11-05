@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background:rgb(177, 216, 204);
+    height: 75px;
+    align-content: center;
+}
+
+header > h1 {
+    text-align: center;
+    color: ;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    background-color: green;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+
+
+}
+
+nav > ul > li{
+    list-style: none;
+   
+    
+
+
+} 
+
+nav > ul > li:hover{
+    
+    
+
+}
+
+
+nav > ul > li > a{
+    text-decoration: ;
+}
+
+

@@ -1,15 +1,24 @@
 
 
-.logo{
+header{
+    width: 100%;
     display:grid;
+    grid-template-columns: 300px 1fr 300px;
+    
 }
-.slogan{
-    display: grid;
-   
+.logo{
+    display: flex;
 }
+.logotext {
+    text-align: center;
+
+}
+
+
 nav {
     background-color: #333;
     padding: 20px 0;
+    align-items: center;
 }
 
 nav > ul {
@@ -17,35 +26,47 @@ nav > ul {
     grid-area: nav;
     display: flex; 
     justify-content: center; 
-    height: 0;
     margin: 0;
     padding: 0;
 
 }
 
+
+.signup-link > a {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.signup-link > a:hover {
+   background-color: lightgray;
+}
+
 nav{
     display:grid;
-    grid-template-columns: 200px 1fr 50px 150px;
+    grid-template-columns: 200px 1fr 100px 100px;
     grid-template-areas: 
     ". nav shoppingcart signup-link";
     background-color: gray;
     width: 100%;
 
+
 }
 
-nav li {
+nav > ul > li {
     margin: 0 15px;
     text-decoration: none;
     color: white;
     padding: 10px 20px;
+    cursor: pointer;
+    
 }
 
 
-nav > li:hover{
-    background-color: gray;
-    border-radius: 5px;
+nav > ul > li:hover{
+    background-color:lightgray;
+    
 }
 
 .langChange{
-    grid-;
+    
 }
