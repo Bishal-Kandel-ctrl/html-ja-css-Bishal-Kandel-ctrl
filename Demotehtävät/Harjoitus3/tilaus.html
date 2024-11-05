@@ -7,6 +7,44 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Ohimaan Marjatila</h1>
+    </header>
+    <nav>
+        <ul>
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="tilaus.html">Tilaus</a></li>
+        <li><a href="yhteystiedot.html">Yhteistiedot</a></li>
+    </ul>
+    </nav>
+    <main>
+        <h1>Tilaus-sivu</h1>
+        <p>“Voit tehdä sähköpostitilauksen alla olevan lomakkeen avulla tai soittaa numeroon 045677777.”</p>
+    </main>
+    <form>
+        <label for="name">Nimi:</label>
+        <input type="text" name="name" id="name" placeholder="Etunimi Sukunimi">
+        <label for="puhelinnumero">Puhelinnumero:</label>
+        <input type="text" name="puhelinnumero" id="puhelinnumero" placeholder="040 556 4545">
+        <label for="teksti">Kirjoittaa tilauksensa:</label>
+        <textarea name="teksti" id="teksti" cols="15" rows="8"></textarea>
+        <div class="pickup">
+            <label for="lisää">Nouto itse:</label>
+            <input type="checkbox" name="pickup" id="lisää"></div>
+        <div class="date">
+            <label for="date">Tilauksen Päivämäärä:</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <label for="text">Lisää Tiedot:</label>
+        <textarea name="teksti" id="text" cols="15" rows="8"></textarea>
+        <div class="send">
+        <input type="reset" value="Tyhjennä">
+        <input type="submit" name="submit" value="Lähetä"></div>
+
+    </form>
+
+    <footer>
+        <p>(c) 2024 Ohimaan Marjatila</p>
+    </footer>
 </body>
 </html>
