@@ -1,0 +1,17 @@
+body{
+    background-color: #252530;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    
+
+}
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex; /* Flexbox asettaa elementit vaakasuoraan */
+justify-content: center;
