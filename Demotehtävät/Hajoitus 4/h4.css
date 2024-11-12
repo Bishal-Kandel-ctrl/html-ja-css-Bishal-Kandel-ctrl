@@ -60,9 +60,9 @@ nav ul li a{
     color: white; */
 }
 
-.image{
+/* .image{
    position: relative;
-   height: 100vh;
+  
 }
 
 .pic1, .label, .pinned-content, .pinned title{
@@ -75,13 +75,23 @@ nav ul li a{
 .label{
     z-index: 2;
 
-}
+} */
 
 .pic1 {
     z-index: 1;
 }
 
-.
+.mainfirstelement{
+    position: relative;
+    width: 200px;
+}
+
+.image{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 /* .label {
