@@ -78,7 +78,7 @@ p{
 }
 
 .pic{
-    height: 300px;
+    width: 100%;
     padding: 10px;
 
 
@@ -140,8 +140,8 @@ footer {
 @media screen and (max-width: 1000px){
     .image{
         display: grid;
-        grid-template-columns: ;
-        gap: ;
+        grid-template-columns: 300px 300px ;
+        gap: 10px;
         justify-content: center;
     }
     
