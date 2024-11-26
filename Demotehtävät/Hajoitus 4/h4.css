@@ -96,7 +96,7 @@ nav > ul > li > a::before{
 
 .fullcontent{
     display: flex;
-    flex: wrap;
+    /* flex: wrap; */
     height: 450px;
     width: 100%;
     margin-left: auto;
@@ -110,6 +110,13 @@ nav > ul > li > a::before{
 .mainfirstleftelement{
     position: relative;
     
+    
+}
+
+
+.leftblockcontent{
+    flex-basis: 30%;
+    width: ;
 }
 
 .leftimage{
@@ -131,7 +138,7 @@ nav > ul > li > a::before{
     flex-wrap: wrap;
     height: 450px;
     gap: 10px;
-    flex-basis: 47%;
+    flex-basis: 50%;
     margin-left: 10px;
     
     
@@ -141,7 +148,8 @@ nav > ul > li > a::before{
 .mainfirstrightelement{
    
     height: 220px;
-    width: 300px;
+    width: 48%;
+   
     position: relative;
     flex-grow: 1;
     overflow: hidden;
@@ -244,12 +252,21 @@ nav > ul > li > a::before{
     line-height: 1.4;
 }
 
+.containercolor{
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+    background-color: gray;
+    width: 100%;
+    height: 450px;
+}
+
 .containercolor1{
     position: absolute;
     top: 0;
     opacity: 0.7;
     background-color: blue;
-    width: 450px;
+    width: 100%;
     height: 220px;
 
 }
@@ -259,7 +276,7 @@ nav > ul > li > a::before{
     top: 0;
     opacity: 1;
     background-color: #f1a962;
-    width: 450px;
+    width: 100%;
     height: 220px;
 
 }
@@ -269,7 +286,7 @@ nav > ul > li > a::before{
     top: 0;
     opacity: 0.7;
     background-color: purple;
-    width: 450px;
+    width: 100%;
     height: 220px;
 
 }
@@ -278,13 +295,15 @@ nav > ul > li > a::before{
     top: 0;
     opacity: 0.7;
     background-color: rgb(244, 124, 144);
-    width: 450px;
+    width: 100%;
     height: 220px;
 
 }
 
 .centralmaincontent{
     display: flex;
+    flex-wrap: wrap;
+    
     justify-content: center;
     margin-top: 50px;
     
@@ -293,10 +312,10 @@ nav > ul > li > a::before{
 
 .centralelementcontainer{
     position: relative;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-    width: 80%;
-    
+    width: 70%;
+    margin-top: 50px;
    
 }
 
@@ -320,23 +339,26 @@ nav > ul > li > a::before{
 }
 
 
-.centralimage{
 
-}
-
-.title{
+.title {
     position: absolute;
-    bottom: 60px;
+    bottom: 150px;
     left: 20px;
     
-    
+    color: #ebebeb;
     font-weight: 400;
     line-height: 1.2;
     font-family: 'Corben', sans-serif;
     font-size: 24px;
     margin: 0 20px 2px 0;
-    word-break: bre;
+    width: 80%;
 }
+
+.title a{
+    text-decoration: none;
+    color: #ebebeb;
+}
+
    
 
     
@@ -344,7 +366,7 @@ nav > ul > li > a::before{
 .centraltext {
     position: absolute;
     top: 160px;
-    left: 15px;
+    left: 20px;
     
     /* display: flex;
     justify-content: center; */
@@ -369,11 +391,69 @@ nav > ul > li > a::before{
     border-radius: 25px;
 }
 
-.title
+.centraltextcontainer {
+    width: 80%;
+    height: 80%;
+}
+
+.authors {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    color: #ebebeb;
+}
+
+.authors a{
+    text-decoration: none;
+    color: #ebebeb;
+    font-family: Mulish;
+    font-weight: 400;
+}
+
+.containercolor5{
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    background-color: rgb(107, 105, 105);
+    width: 100%;
+    height: 500px;
+}
+
+.containercolor6{
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+    background-color: rgb(201, 171, 62);
+    width: 100%;
+    height: 500px;
+}
+
+.title h2 a::after{
+    position: absolute;
+    content:'→';
+    color: transparent;
+    transition-duration: .3s;
+   
+    
+}
+
+.title h2 a:hover::after{
+    position: absolute;
+    content: '→';
+    color: #ebebeb;
+    transition-duration: .3s;
+    
+}
 
 
 
-
+.text7{
+    position: absolute;
+    bottom: 130px;
+    left: 20px;
+    font-family: Mulish;
+    font-weight: 400;
+}
 
 
 
