@@ -116,7 +116,14 @@ nav > ul > li > a::before{
 
 .leftblockcontent{
     flex-basis: 30%;
-    width: ;
+    padding-top: 5px;
+    transition: 0.3s;
+    /* width: ; */
+}
+
+
+.leftblockcontent:hover{
+    padding: 0;
 }
 
 .leftimage{
